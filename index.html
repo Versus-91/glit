@@ -16,6 +16,7 @@
 
   <!-- cytoscape draws the graph in this div -->
   <div class="cy" id="cy"></div>
+  <div id="my_dataviz" style="display: none;"></div>
   <div id="config" class="config ">
     <!-- 
 
@@ -24,7 +25,6 @@
     <label for="rangeSelector" class="lab mt-2">Lense radius</label>
     <input type="range" name="rangeSelector" class="form-range" value="0" min="0" max="10" step="1" id="rangeSelector" />
     <select class="form-select mt-5" id="lenseBehavoirSelect">
-      <option selected>Choose lense behavoir</option>
       <option value="1">Node shape</option>
       <option value="2">Edge highlight</option>
     </select>
